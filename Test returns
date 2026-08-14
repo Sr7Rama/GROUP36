@@ -1,0 +1,49 @@
+Test case ID
+Scenario
+Data input(ID)
+Expected output
+TC -RET-01
+Refund status check
+(completed)
+RET- 2005
+Identify status as
+"Refunded".Confirm
+original payment
+method used on Aug
+06,2026
+TC - RET - 02
+Refund status check
+(in progress)
+RET- 2001
+Identify status as
+"Approved " .Notify
+customer of pick up
+on Aug 14,2026and
+eat refund on Aug
+18,2026
+TC - RET - 03
+New return eligibility
+NS -1002
+Validate against 14 -
+day window (order
+Aug 12 vs current Aug
+14
+TC RET - 04
+Deflection: Exchange
+logic
+RET -2004
+Identify "Approved"
+status for exchange
+.link to pending
+replacement order NS
+- 1008
+TC - RET -05
+Review pending
+notification
+RET-2003
+Status pending
+review.Advice
+customer that the
+request is within the
+14 day window and
+awaiting approval
